@@ -188,7 +188,7 @@ import javax.swing.event.*;
           {
            public void actionPerformed(ActionEvent e)
              {
-              System.out.println(name);
+            //  System.out.println(name);
                SceneChange(Contentpane[BG[5]]); // change to diff 
             }
            });
@@ -210,7 +210,7 @@ import javax.swing.event.*;
           {
            public void actionPerformed(ActionEvent e)
              {
-              System.out.println(name);
+            //  System.out.println(name);
                SceneChange(Contentpane[BG[4]]); // change to diff 
             }
            });
@@ -353,13 +353,13 @@ import javax.swing.event.*;
               case 1:
                 Theme_sound.setVolume(current_vol); //set BG vol
                 current_BGM=current_vol;
-                System.out.printf("Vol BGM %.2f \n",current_vol);
+                // System.out.printf("Vol BGM %.2f \n",current_vol);
                   break;
               case 2:
                 Set_SFX(current_vol); // set SFX Vol
                 Current_SFX = current_vol;
                 Play_sound.playOnce();
-                System.out.printf("Vol SFX %.2f \n",current_vol);
+               // System.out.printf("Vol SFX %.2f \n",current_vol);
               break;
               
           }
@@ -381,7 +381,7 @@ import javax.swing.event.*;
            public void actionPerformed(ActionEvent e)
              {
                  customized.playOnce();
-              System.out.println(name);
+             // System.out.println(name);
                SceneChange(Contentpane[BG[3]]); // change to diff 
             }
            });
